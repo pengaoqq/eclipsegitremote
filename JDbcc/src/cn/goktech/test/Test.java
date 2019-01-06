@@ -1,7 +1,7 @@
 package cn.goktech.test;
 
 public class Test {
-	//abc1231xd1111111
+	//bbbb
 	public static void main(String[] args) {
 		//测试
 		int[] a ={5,1,2,3,8,1,4};
