@@ -1,0 +1,16 @@
+引入：junit -- 单元测试
+使用：	1、项目根据径下 新建一个lib目录
+		2、把对应jar包复制到lib下
+		3、选中jar包 右键build path -- add to build path
+		
+回忆：
+	1、数据持久化 -- 可以存储在可掉电时设备里面
+	2、JDBC -- 一组接口，java规定的 -- 代码的可移植性
+	3、Driver -- 可以通过Driver获取数据库连接
+		a)获取Driver的对象
+			properties文件 -- FileInputStream()
+			准备connet所需要的参数url: 数据库地址jdbc:mysql://localhost:3306/db1
+							properties: user  password
+		b)connect()方法获取数据库连接
+	4、DriverManager:	1、管理驱动程序 Class.forName(数据库驱动全类名);
+						2、通过静态方法getConnection(url,properties)获取数据库连接 -- 也调用了driver.connect();
