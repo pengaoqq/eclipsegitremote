@@ -1,7 +1,7 @@
 package cn.goktech.test;
 
 public class Test {
-	//abc1231
+	//abc1231x
 	public static void main(String[] args) {
 		int[] a ={5,1,2,3,8,1,4};
 		for (int i = 0; i < a.length; i++) {
